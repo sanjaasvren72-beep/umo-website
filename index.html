@@ -1,13 +1,284 @@
 <!DOCTYPE html>
-<html>
+<html lang="mn">
+
 <head>
-<title>UMO Website</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Өлзийт мөнх овоо ХХК Оёдлын Үйлдвэр — Ажлын хувцасны үйлдвэрлэгч</title>
+    <meta name="description" content="Өлзийт мөнх овоо ХХК — Монголын ажлын болон аж үйлдвэрийн хувцасны үйлдвэрлэгч. Уулын, өвлийн, зуны ажлын хувцас, хамгаалалтын хувцас үйлдвэрлэдэг.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <div class="logo">
+        <img src="images/logo/logo1.png" alt="Company Logo">
+    </div>
 </head>
-<body>
 
-<h1>Өлзийт Мөнх Овоо</h1>
+<body data-page="home">
 
-<script src="script.js"></script>
+    <!-- ============ NAV (бүх хуудсанд ижил, шаардлагатай бол хуулна) ============ -->
+    <header class="site-nav">
+        <div class="container">
+            <a href="index.html" class="brand">
+                <strong>Өлзийт мөнх овоо ХХК</strong>
+                <span>ОЁДЛЫН ҮЙЛДВЭР · 2009</span>
+            </a>
+            <nav class="nav-links" id="nav-links">
+                <a href="index.html" class="active">Нүүр</a>
+                <a href="about.html">Бидний тухай</a>
+                <a href="products.html">Бүтээгдэхүүн</a>
+                <a href="index.html#gallery">Зураг</a>
+                <a href="index.html#contact">Холбоо барих</a>
+            </nav>
+            <button class="nav-toggle" aria-label="Цэс">&#9776;</button>
+        </div>
+    </header>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-grid"></div>
+        <div class="container hero-inner">
+            <div class="hero-eyebrow">Ажлын хувцасны үйлдвэрлэл · Өмнөговь Ханбогд сум</div>
+            <h1><span>Ажлын талбарт</span><span>тэсвэртэй хувцас.</span></h1>
+            <p class="hero-desc">Өлзийт мөнх овоо ХХК нь 2009 оноос хойш уул уурхай, барилга, аж үйлдвэрийн салбарт зориулсан бат бэх, өндөр чанартай ажлын хувцас үйлдвэрлэж байна. ISO 9001, ISO 14001, ISO 45001 стандартын дагуу ажилладаг.</p>
+            <div class="hero-cta">
+                <a href="products.html" class="btn btn-primary">Бүтээгдэхүүн үзэх</a>
+                <a href="about.html" class="btn btn-outline">Бидний тухай</a>
+            </div>
+            <div class="hero-stats">
+                <div class="hero-stat"><b>2009</b><span>Байгуулагдсан</span></div>
+                <div class="hero-stat"><b>40</b><span>Ажилтан</span></div>
+                <div class="hero-stat"><b>500м²</b><span>Үйлдвэрийн талбай</span></div>
+                <div class="hero-stat"><b>57,000+</b><span>2026 онд үйлдвэрлэсэн ширхэг</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ COMPANY INTRO ============ -->
+    <section>
+        <div class="container split">
+            <div class="reveal">
+                <div class="eyebrow">Бидний тухай</div>
+                <h2>2009 оноос хойш ажлын хувцас үйлдвэрлэл жижиг дунд үйлдвэрийн чиглэлээр ажиллаж байна</h2>
+                <p>Өлзийт мөнх овоо ХХК оёдлын үйлдвэр нь "ажлын хувцас" чиглэлээр мэргэшиж, уул уурхай, барилга, логистикийн салбарын байгууллагуудад зориулсан ажлын хувцас үйлдвэрлэдэг. Бид материал сонголтоос эхлээд бэлэн бүтээгдэхүүн хүртэлх бүх үе шатыг
+                    өөрийн үйлдвэрт хянан гүйцэтгэдэг.</p>
+                <p>500 м² талбай бүхий үйлдвэрт 40 ажилтан 1 салбартай ажиллаж, 2026 онд 70 төрлийн бүтээгдэхүүн, нийт 57,000 ширхэг ажлын хувцас үйлдвэрлэсэн.</p>
+                <div class="stat-row">
+                    <div><b>ISO 9001</b><span>Чанарын менежмент</span></div>
+                    <div><b>ISO 14001</b><span>Байгаль орчны менежмент</span></div>
+                    <div><b>ISO 45001</b><span>Хөдөлмөрийн аюулгүй байдал</span></div>
+                </div>
+                <div style="margin-top:36px;"><a href="about.html" class="btn btn-outline dark">Дэлгэрэнгүй танилцах</a></div>
+            </div>
+            <div class="cut-card reveal">
+                <img src="images/factory/factory-01.jpeg" alt="Өлзийт мөнх овоо ХХК үйлдвэрийн байр">
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CATEGORIES ============ -->
+    <section class="section-dark">
+        <div class="container">
+            <div class="section-head">
+                <div class="eyebrow">Бүтээгдэхүүний ангилал</div>
+                <h2>Ажлын нөхцөл бүрт тохирсон шийдэл</h2>
+            </div>
+            <div class="grid grid-4" id="category-grid">
+                <!-- JS-ээр PRODUCTS дата-с автоматаар дүүргэнэ -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ MANUFACTURING CAPABILITIES ============ -->
+    <section>
+        <div class="container split">
+            <div class="cut-card reveal" style="order:2;">
+                <img src="images/factory/factory-02.jpg" alt="Оёдлын машин, үйлдвэрлэлийн шугам">
+            </div>
+            <div class="reveal">
+                <div class="eyebrow">Үйлдвэрлэлийн чадавх</div>
+                <h2>Материалаас бэлэн бүтээгдэхүүн хүртэл</h2>
+                <div class="capability-list">
+                    <div class="capability-item">
+                        <b class="num">01</b>
+                        <div>
+                            <h4>Эсгүүр</h4>
+                            <p>Тоон удирдлагатай тайралтын систем ашиглан материалын алдагдлыг багасгана.</p>
+                        </div>
+                    </div>
+                    <div class="capability-item">
+                        <b class="num">02</b>
+                        <div>
+                            <h4>Оёдол, угсралт</h4>
+                            <p>Мэргэшсэн оёдолчид, тусгайлсан машин тоноглолоор давхар бэхжүүлсэн оёдол хийнэ.</p>
+                        </div>
+                    </div>
+                    <div class="capability-item">
+                        <b class="num">03</b>
+                        <div>
+                            <h4>Чанарын хяналт</h4>
+                            <p>Бүтээгдэхүүн бүрийг ISO 9001 стандартын дагуу шат бүрт шалгаж баталгаажуулна.</p>
+                        </div>
+                    </div>
+                    <div class="capability-item">
+                        <b class="num">04</b>
+                        <div>
+                            <h4>Баглаа боодол</h4>
+                            <p>Захиалгын хэмжээ, шаардлагад тохируулан баглаж, захиалгат бэлэн болгоно.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ WHY CHOOSE US ============ -->
+    <section class="section-steel">
+        <div class="container">
+            <div class="section-head center" style="margin: 0 auto 48px;">
+                <div class="eyebrow">Яагаад Өлзийт мөнх овоо ХХК сонгох вэ?</div>
+                <h2>Стандарт, туршлага, найдвартай түншлэл</h2>
+            </div>
+            <div class="grid grid-3 why-grid">
+                <div class="cut-card reveal">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l8 4v6c0 5-3.4 8.4-8 10-4.6-1.6-8-5-8-10V6l8-4z"/></svg>
+                    <h3>Гурван ISO стандарт</h3>
+                    <p>ISO 9001, ISO 14001, ISO 45001 гэрчилгээтэй тул чанар, байгаль орчин, аюулгүй байдлын шаардлагыг бүрэн хангадаг.</p>
+                </div>
+                <div class="cut-card reveal">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 3.5"/></svg>
+                    <h3>2009 оноос хойших туршлага</h3>
+                    <p>15 гаруй жилийн туршлагатай баг материал, загвар, эдэлгээний хувьд итгэлтэй шийдэл санал болгодог.</p>
+                </div>
+                <div class="cut-card reveal">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 20V10l8-6 8 6v10"/><path d="M9 20v-6h6v6"/></svg>
+                    <h3>Бүх шатны үйлдвэрлэл</h3>
+                    <p>500 м² талбай бүхий өөрийн үйлдвэрт эсгүүрээс баглаа боодол хүртэл бүх процессыг хянадаг.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FEATURED PRODUCTS ============ -->
+    <section>
+        <div class="container">
+            <div class="section-head">
+                <div class="eyebrow">Онцлох бүтээгдэхүүн</div>
+                <h2>Хамгийн их эрэлттэй загварууд</h2>
+            </div>
+            <div class="grid grid-4" id="featured-products">
+                <!-- JS-ээр PRODUCTS дата-с автоматаар дүүргэнэ -->
+            </div>
+            <div style="margin-top:40px; text-align:center;">
+                <a href="products.html" class="btn btn-outline dark">Бүх бүтээгдэхүүнийг үзэх</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ PHOTO GALLERY (Home highlight, full gallery -> about.html) ============ -->
+    <section class="section-dark" id="gallery">
+        <div class="container">
+            <div class="section-head">
+                <div class="eyebrow">Үйлдвэрийн галерей</div>
+                <h2>Үйлдвэрлэлийн явцаас</h2>
+            </div>
+            <div class="masonry" data-lightbox-group>
+                <figure><img src="images/factory/factory-03.jpeg" alt="Ажилчид">
+                    <figcaption>Ажилчид</figcaption>
+                </figure>
+                <figure><img src="images/factory/factory-04.jpg" alt="Үйлдвэрлэлийн явц">
+                    <figcaption>Үйлдвэрлэлийн явц</figcaption>
+                </figure>
+                <figure><img src="images/factory/factory-05.jpg" alt="Эсгүүр">
+                    <figcaption>Эсгүүр</figcaption>
+                </figure>
+                <figure><img src="images/factory/factory-06.jpeg" alt="Оёдлын процесс">
+                    <figcaption>Оёдлын процесс</figcaption>
+                </figure>
+                <figure><img src="images/factory/factory-07.png" alt="Чанарын хяналт">
+                    <figcaption>Чанарын хяналт</figcaption>
+                </figure>
+                <figure><img src="images/factory/factory-08.jpg" alt="Бэлэн бүтээгдэхүүн">
+                    <figcaption>Бэлэн бүтээгдэхүүн</figcaption>
+                </figure>
+            </div>
+            <div style="margin-top:36px; text-align:center;">
+                <a href="about.html#gallery" class="btn btn-outline">Дэлгэрэнгүй галерей</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact">
+        <div class="container contact-grid">
+            <div class="reveal">
+                <div class="eyebrow">Холбоо барих</div>
+                <h2 id="contact-cta">Хамтран ажиллахад бэлэн</h2>
+                <p>Захиалга, түншлэлийн талаар доорх мэдээллээр бидэнтэй холбогдоно уу.</p>
+                <div class="contact-item">
+                    <span class="ico">&#128205;</span>
+                    <div><b>Хаяг</b>Өмнөговь, Ханбогд сум</div>
+                </div>
+                <div class="contact-item">
+                    <span class="ico">&#128222;</span>
+                    <div><b>Утас</b>+976 89198999</div>
+                </div>
+                <div class="contact-item">
+                    <span class="ico">&#9993;</span>
+                    <div><b>И-мэйл</b>umoxxk16@gmail.com</div>
+                </div>
+                <div class="contact-item">
+                    <span class="ico">&#128101;</span>
+                    <div><b>Facebook</b>facebook.com/Өлзийт мөнх овоо</div>
+                </div>
+                <div class="contact-item">
+                    <span class="ico">&#128337;</span>
+                    <div><b>Ажиллах цаг</b>Даваа–Баасан, 09:00–18:00</div>
+                </div>
+            </div>
+            <div class="reveal">
+                <iframe class="map-frame" loading="lazy" src="https://www.google.com/maps?q=Ulaanbaatar,Mongolia&output=embed" title="Өлзийт мөнх овоо ХХК байршил"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand"><strong>Өлзийт мөнх овоо ХХК</strong>
+                    <p style="max-width:34ch; margin-top:10px;">Ажлын болон аж үйлдвэрийн хувцасны үйлдвэрлэгч. Өмнөговь Ханбогд.</p>
+                </div>
+                <div class="footer-cols">
+                    <div class="footer-col">
+                        <h4>Сайт</h4>
+                        <a href="index.html">Нүүр</a>
+                        <a href="about.html">Бидний тухай</a>
+                        <a href="products.html">Бүтээгдэхүүн</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Ангилал</h4>
+                        <a href="products.html?cat=mining">Поло цамц</a>
+                        <a href="products.html?cat=winter">Өвлийн хувцас</a>
+                        <a href="products.html?cat=protective">Хамгаалалтын хувцас</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Холбоо барих</h4>
+                        <a href="umoxxk16@gmail.com">umoxxk16@gmail.com</a>
+                        <a href="tel:+97689198999">+976 89198999</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 Өлзийт мөнх овоо ХХК Оёдлын Үйлдвэр. Бүх эрх хуулиар хамгаалагдсан.</span>
+                <span>ESTD 2009</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/products-data.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
