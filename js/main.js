@@ -182,7 +182,7 @@ function initProductDetailPage() {
         </div>
 
         <div class="hero-cta" style="margin-top:32px;">
-          <a href="#contact-cta" class="btn btn-primary">Захиалгын талаар холбогдох</a>
+          <a href="index.html#contact-cta" class="btn btn-primary">Захиалгын талаар холбогдох</a>
           <a href="products.html?cat=${product.category}" class="btn btn-outline dark">Ижил төрлийн бүтээгдэхүүн</a>
         </div>
       </div>
