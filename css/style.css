@@ -236,7 +236,7 @@ section {
     align-items: center;
     justify-content: space-between;
     min-height: 72PX;
-    height: 78px;
+    padding: 10px 28px;
 }
 
 .brand {
@@ -1152,7 +1152,6 @@ section {
     color: #97a0a6;
     padding: 56px 0 26px;
 }
-
 .footer-top {
     display: flex;
     justify-content: space-between;
@@ -1246,11 +1245,4 @@ button:focus-visible {
     width: 65px;
     height: 65px;
     object-fit: contain;
-}
-
-
-/* Компанийн нэрийг логонд зай гаргаж өгөх */
-
-.site-nav .brand {
-    padding-left: 85px;
 }
