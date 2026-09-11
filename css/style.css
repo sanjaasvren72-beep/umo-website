@@ -240,7 +240,9 @@ section {
 
 .brand {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
     color: var(--paper);
 }
 
@@ -254,6 +256,12 @@ section {
     font-size: 0.68rem;
     color: var(--ash);
     letter-spacing: 0.08em;
+}
+
+.brand-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
 }
 
 .nav-links {
@@ -1224,9 +1232,6 @@ button:focus-visible {
 /* Компанийн логог дээд хэсгийн зүүн талд байрлуулах */
 
 .logo {
-    position: absolute;
-    top: 11px;
-    left: 90px;
     z-index: 1000;
 }
 
