@@ -1226,7 +1226,7 @@ button:focus-visible {
 .logo {
     position: absolute;
     top: 11px;
-    left: 100px;
+    left: 400px;
     z-index: 1000;
 }
 
