@@ -205,7 +205,7 @@ function initProductDetailPage() {
     </div>
 
     <div class="detail-tab-panel" data-panel="materials">
-      <p style="margin-bottom:24px;">Энэ бүтээгдэхүүнд ашигласан материалын дэлгэрэнгүй мэдээлэл. Материалын зургийг та /images/materials/ хавтаснаас өөрийн зургаар солих боломжтой.</p>
+      <p style="margin-bottom:24px;">Энэ бүтээгдэхүүнд ашигласан материалын дэлгэрэнгүй мэдээлэл.</p>
       <div class="grid grid-2">
         ${materials
           .map(
