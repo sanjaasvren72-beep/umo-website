@@ -300,7 +300,7 @@ section {
     cursor: pointer;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 768px) {
     .nav-toggle {
         display: block;
     }
